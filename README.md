@@ -22,20 +22,23 @@ TELEGRAM_CHAT_ID=your_chat_id
 **@EVDS** sistemine giriş yaparak API anahtarınızı alın.
 Anahtarı EvdsService içindeki `key` alana yerleştirin:
 
-```key'
+```key
 'key' = 'YOUR_EVDS_API_KEY';
+```
 
+### 3. Veritabanı Tablolarını Oluşturma
 
-3. Veritabanı Tablolarını Oluşturma
+Projede kullanılacak tabloları `table` oluşturmak için:
 
-Projede kullanılacak tabloları oluşturmak için:
-
+```table
 php artisan migrate
 
+```
 Artık her şey hazır!
-Aşağıdaki komutu çalıştırdığınızda botunuza günlük kur değişim bildirimleri gönderilecektir:
+Aşağıdaki `command` çalıştırdığınızda botunuza günlük kur değişim bildirimleri gönderilecektir:
 
+```command
 php artisan app:evds-comparison
 
-
+```
 Bu komut ayrıca veritabanına 01/10/2025 tarihinden günümüze kadar olan tüm verileri otomatik olarak ekler.

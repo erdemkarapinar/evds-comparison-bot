@@ -13,7 +13,7 @@ Bot oluşturulduktan sonra aşağıdaki bilgileri alın:
 
 Bu bilgileri `.env` dosyanıza aşağıdaki şekilde ekleyin:
 
-```env`
+```env ```md
 TELEGRAM_BOT_TOKEN=your_bot_token
 TELEGRAM_CHAT_ID=your_chat_id
 

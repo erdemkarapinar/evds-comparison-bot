@@ -17,11 +17,12 @@ Bu bilgileri `.env` dosyanıza aşağıdaki şekilde ekleyin:
 TELEGRAM_BOT_TOKEN=your_bot_token
 TELEGRAM_CHAT_ID=your_chat_id
 
-2. EVDS API Key Alma
+### 2. EVDS API Key Alma
 
-EVDS sistemine giriş yaparak API anahtarınızı alın.
-Anahtarı EvdsService içindeki ilgili alana yerleştirin:
+**@EVDS** sistemine giriş yaparak API anahtarınızı alın.
+Anahtarı EvdsService içindeki `.key` alana yerleştirin:
 
+```key
 'key' = 'YOUR_EVDS_API_KEY';
 
 3. Veritabanı Tablolarını Oluşturma
